@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="../favicon/favicon.ico">
+
   <link href=" https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
   <title>Register_Page</title>
 </head>
@@ -20,7 +22,7 @@
       <input type="text" placeholder="Phone Number"><br>
       <input type="button" value="Sign in"><br>
       <a href="#">Forgot Password?</a><br>
-      <small>Already have an account?</small>
+      <small style="color:goldenrod">Already have an account?</small>
       <br>
       <a href="login.php">Sign-in</a>
     </form>

@@ -14,6 +14,7 @@
   <meta name="keywords" content="">
   <meta name="description" content="">
   <meta name="author" content="">
+  <link rel="icon" type="image/x-icon" href="favicon/favicon.ico">
   <!-- bootstrap css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <!-- style css -->
@@ -75,7 +76,7 @@
         <div class="row">
           <div class="col-sm-12">
             <div class="logo" style="font-size: 35px;font-weight:900;font-family:Rubik Broken Fax;letter-spacing:5px"><a
-                href="index.html">
+                href="index.php">
                 <span style="color: gold;font-family:Rubik Doodle Shadow">MAY'S</span>
                 <span style="color:goldenrod;font-family:Rubik Doodle Shadow"> CRAFT</span></a></div>
           </div>

@@ -5,6 +5,7 @@
     background: linear-gradient(45deg,rgb(0,0,0,0.4),rgb(0,0,0,0.5)),url('../images/maylogo.jpg');
     background-size: cover;
     object-fit: fill;
+    /* background-repeat: no-repeat; */
     font-family: 'Montserrat', sans-serif;
   }
   

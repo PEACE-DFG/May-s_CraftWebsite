@@ -21,7 +21,9 @@
   <!-- Responsive-->
   <link rel="stylesheet" href="../css/responsive.css">
   <!-- fevicon -->
-  <link rel="icon" href="../images/fevicon.png" type="image/gif" />
+  <link rel="icon" type="image/x-icon" href="../favicon/favicon.ico">
+
+  <!-- <link rel="icon" href="../images/fevicon.png" type="image/gif" /> -->
   <!-- Scrollbar Custom CSS -->
   <link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
   <!-- Tweaks for older IEs-->
@@ -69,7 +71,7 @@
         <div class="row">
           <div class="col-sm-12">
             <div class="logo" style="font-size: 35px;font-weight:900;font-family:Rubik Broken Fax;letter-spacing:5px"><a
-                href="index.html">
+                href="index.php">
                 <span style="color: gold;font-family:Rubik Doodle Shadow">MAY'S</span>
                 <span style="color:goldenrod;font-family:Rubik Doodle Shadow"> CRAFT</span></a></div>
           </div>
