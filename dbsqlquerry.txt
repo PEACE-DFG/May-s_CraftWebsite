@@ -1,0 +1,29 @@
+-- Create the main user table
+CREATE TABLE `User` (
+    `user_id` INT PRIMARY KEY AUTO_INCREMENT,
+    `email` VARCHAR(255) NOT NULL,
+    `password` VARCHAR(255) NOT NULL,
+    `phonenumber` VARCHAR(20) NOT NULL
+);
+
+-- Create the user address table
+CREATE TABLE `UserAddress` (
+    `address_id` INT PRIMARY KEY AUTO_INCREMENT,
+    `user_id` INT,
+    `street_address` VARCHAR(255),
+    `city` VARCHAR(100),
+    `state` VARCHAR(100),
+    `postal_code` VARCHAR(20),
+    FOREIGN KEY (`user_id`) REFERENCES `User`(`user_id`)
+);
+
+-- Create the user order table
+CREATE TABLE `UserOrder` (
+    `order_id` INT PRIMARY KEY AUTO_INCREMENT,
+    `user_id` INT,
+    `order_date` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    `item_name` VARCHAR(255),
+    `quantity` INT,
+    `price` DECIMAL(10, 2),
+    FOREIGN KEY (`user_id`) REFERENCES `User`(`user_id`)
+);

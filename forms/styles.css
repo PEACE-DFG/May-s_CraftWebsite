@@ -19,7 +19,7 @@
   form {
     background: var(--bg-white);
     padding: 3em;
-    height: 410px;
+    height: 460px;
     border-radius: 20px;
     border-left: 1px solid var(--bg-white);
     border-top: 1px solid var(--bg-white);
@@ -35,7 +35,7 @@
       opacity: 0.7;
       font-size: 1.4rem;
       margin-top: 0;
-      margin-bottom: 60px;
+      margin-bottom: 20px;
       text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
     }
     
@@ -57,7 +57,7 @@
       background: transparent;
       width: 200px;
       padding: 1em;
-      margin-bottom: 2em;
+      margin-bottom: 1.5em;
       border: none;
       border-left: 1px solid var(--bg-white);
       border-top: 1px solid var(--bg-white);
